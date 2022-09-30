@@ -1,11 +1,23 @@
 import './App.css';
-import Headerphoto from './componets/headerphoto';
+import About from './componets/about/About';
+import Home from './componets/home/Home';
+import Portfolio from './componets/portfolio/Portfolio';
+import Sidebar from './componets/sidebar/Sidebar';
+import Resume from './componets/resume/Resume';
 
 function App() {
   return (
-    <div className="App">
-      <Headerphoto/>
-</div>
+    <>
+    <Sidebar />
+    <div className='main'>
+      <Home />
+      <About />
+      <Resume />
+      <Portfolio />
+
+      </div>
+    
+</>
   );
 }
 
