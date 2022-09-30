@@ -5,7 +5,7 @@ import Home from './componets/home/Home';
 import Portfolio from './componets/portfolio/Portfolio';
 import Sidebar from './componets/sidebar/Sidebar';
 import Resume from './componets/resume/Resume';
-
+import Contact from './componets/contact/Contact';
 function App() {
   return (
     <>
@@ -13,8 +13,10 @@ function App() {
     <div className='main'>
       <Home />
       <About />
-      <Resume />
       <Portfolio />
+      <Resume />
+      <Contact />
+      
 
       </div>
     

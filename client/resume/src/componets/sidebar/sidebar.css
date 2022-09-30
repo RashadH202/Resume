@@ -22,10 +22,18 @@
 .nav__link {
     font-size: 1.5rem;
     color: var(--title-color);
-    font-weight: var(--font-bold)
+    font-weight: var(--font-bold);
+    margin: 1px;
+    transition: .3s;
+}
+
+.nav__link:hover {
+    color: blanchedalmond;
 }
 
 .copyright {
     color: whitesmoke;
     font-size: var(--small-font-size);
+    transform: rotate(180);
+    writing-mode: vertical-lr;
 }
