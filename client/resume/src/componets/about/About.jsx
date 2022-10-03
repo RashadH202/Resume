@@ -11,7 +11,7 @@ const About = () => {
         <img src={Me} alt='' className='about__img'/>
             <div className="about__data grid">
                 <div className="about__info">
-                  <p className="about__decription">dfadf</p>
+                  <p className="about__decription">Here's a copy of my Resume if you need it.</p>
                   <a href='' className='btn'>Download CV</a>
 
                 </div>
