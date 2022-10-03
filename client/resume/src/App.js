@@ -1,5 +1,5 @@
 import './App.css';
-import './index.css'
+import './index.css';
 import About from './componets/about/About';
 import Home from './componets/home/Home';
 import Portfolio from './componets/portfolio/Portfolio';
